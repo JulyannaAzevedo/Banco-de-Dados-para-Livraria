@@ -1,0 +1,131 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+------LAYOUT------
+*/
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #dbd8d8
+}
+
+/*fieldset{
+    padding: 1em;
+    border: 1px solid rgb(103, 119, 105);
+    font-weight: bold;
+}*/
+
+label{
+    display: block;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/*
+------id------
+*/
+
+#cabecalho{
+    background-color: #f7b600;
+    padding: 15px; /*margem interna*/
+    text-align: center; /*centraliza*/
+}
+
+#area-menu{
+    padding: 10px;
+    
+}
+
+#area-principal{
+    /*background-color: rgb(209, 214, 197);*/
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#container{
+    width: 420px;
+    /* height: 320px; */
+    background-color:  rgba(255, 255, 255, 0.404);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#titulo{
+    text-align: left;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#texto{
+    display: inline-block;
+    position: relative;
+}
+
+#tabela{
+    /* border-collapse: collapse; */
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    color: #815f01;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+------class------
+*/
+
+.nome{
+    font-weight: 550;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.livro{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+    border-radius: 5px;
+}
+
+
+/*
+------formatacao menu------
+*/
+
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+	color: #e6e6e6;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #f7b600;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+}
+
+#area-principal a:link, #area-principal a:visited {
+	color: #a57c0b;
+	padding: 8px 10px;
+}
+
+#area-principal a:hover{
+    background: #f7b600;
+    color: #FFF;
+    text-decoration: none;
+}
